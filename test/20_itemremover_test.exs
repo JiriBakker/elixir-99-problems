@@ -8,7 +8,7 @@ defmodule Elixir99Problems.ItemRemoverTest do
   end
 
   test "drop at index 3 works" do
-    assert Elixir99Problems.ItemRemover.dropAt(Enum.to_list 1..14, 3) == [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+    assert Elixir99Problems.ItemRemover.dropAt(Enum.to_list(1..14), 3) == [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
   end
 
   test "drop at index higher than list returns input list" do

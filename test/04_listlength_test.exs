@@ -4,7 +4,7 @@ defmodule Elixir99Problems.ListLengthTest do
   # https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/p/p04.html
 
   test "list of 4000 elements is counted as 4000" do
-    assert Elixir99Problems.ListLength.countElements(Enum.to_list 1..4000) == 4000
+    assert Elixir99Problems.ListLength.countElements(Enum.to_list(1..4000)) == 4000
   end
 
   test "list of 1 element is counted as 1" do

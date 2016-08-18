@@ -8,7 +8,7 @@ defmodule Elixir99Problems.ListRotatorTest do
   end
 
   test "rotate list with index higher than list length works" do
-    assert Elixir99Problems.ListRotator.rotate(Enum.to_list 1..10, 13) == [4, 5, 6, 7, 8, 9, 10, 1, 2, 3] 
+    assert Elixir99Problems.ListRotator.rotate(Enum.to_list(1..10), 13) == [4, 5, 6, 7, 8, 9, 10, 1, 2, 3] 
   end
 
   test "rotate list at index 1 works" do
