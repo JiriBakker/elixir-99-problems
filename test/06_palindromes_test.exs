@@ -1,7 +1,7 @@
 defmodule Elixir99Problems.PalindromesTest do
   use ExUnit.Case
 
-  #doctest Elixir99Problems.Palindromes
+  # https://johncrane.gitbooks.io/ninety-nine-elm-problems/content/p/p06.html
 
   test "palindrome of integers is recognized" do
     assert Elixir99Problems.Palindromes.isPalindrome([1, 3, 5, 8, 5, 3, 1]) == :true
